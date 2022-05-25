@@ -22,3 +22,6 @@ spec:
       destination:
         server: '{{url}}'
         namespace: default
+      syncPolicy:
+        syncOptions:
+        - CreateNamespace=true
