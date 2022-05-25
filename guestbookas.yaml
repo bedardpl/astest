@@ -3,10 +3,9 @@ kind: ApplicationSet
 metadata:
   name: guestbook
 spec:
-  project: default
   destination:
     server: https://kubernetes.default.svc
-    namespace: default
+    namespace: argocd
   generators:
   - list:
       elements:
