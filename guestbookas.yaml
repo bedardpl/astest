@@ -21,7 +21,7 @@ spec:
         path: examples/list-generator/guestbook/{{cluster}}
       destination:
         server: '{{url}}'
-        namespace: default
+        namespace: guesbook
       syncPolicy:
         syncOptions:
         - CreateNamespace=true
